@@ -57,20 +57,20 @@ From highest to lowest:
 | 5 | Pair |
 | 6 | High Card |
 
-> ### ⚠️ SPECIAL RULE — Low Beats Monsters
+> ### ⚠️ SPECIAL RULE — Low Beats Premiums
 >
-> At showdown: if at least one player has a **Prial or Straight Flush** AND at least one player has a **qualifying low hand** — the lowest qualifying low wins the entire pot.
+> At showdown: if at least one player has a **Flush or better** AND at least one player has a **qualifying low hand** — the lowest qualifying low wins the entire pot.
 
 **Qualifying Low:**
 
 - High card only (no pair, no straight, no flush)
-- Highest card is **9 or lower**
+- Highest card is **8 or lower**
 
 **Clarifications:**
 
 - Multiple qualifying lows → lowest hand wins
 - No qualifying low → normal rankings apply
-- No Prial or Straight Flush → normal rankings apply
+- No Flush or better → normal rankings apply
 
 ---
 
@@ -124,7 +124,7 @@ Other players must either **pay in** or **fold**.
 
 ## 🃏 Section 8 — Showdown
 
-All remaining (non-folded) players reveal their hands. Winner determined by hand rankings, subject to the Low Beats Monsters rule.
+All remaining (non-folded) players reveal their hands. Winner determined by hand rankings, subject to the Low Beats Premiums rule.
 
 > ### 🔍 Full Reveal Rule (Edge Case)
 >
@@ -134,7 +134,7 @@ All remaining (non-folded) players reveal their hands. Winner determined by hand
 
 **Resolution After Full Reveal:**
 
-- Any revealed Prial or Straight Flush → Low Beats Monsters triggered
+- Any revealed Flush or better → Low Beats Premiums triggered
 - No such hand → normal rankings apply
 
 ---
@@ -199,20 +199,20 @@ All remaining (non-folded) players reveal their hands. Winner determined by hand
 | 5 | 對子（Pair） |
 | 6 | 散牌（High Card） |
 
-> ### ⚠️ 特殊規則——小牌打大怪
+> ### ⚠️ 特殊規則——小牌打優牌
 >
-> 攤牌時，若至少一位玩家有**豹子或同花順**，且至少一位玩家有**符合條件的低牌**——最低的符合條件低牌贏得整個底池。
+> 攤牌時，若至少一位玩家有**同花或更高牌型**，且至少一位玩家有**符合條件的低牌**——最低的符合條件低牌贏得整個底池。
 
 **符合條件的低牌：**
 
 - 僅散牌（無對子、無順子、無同花）
-- 最大牌為 **9 或更低**
+- 最大牌為 **8 或更低**
 
 **補充說明：**
 
 - 多個符合條件的低牌 → 最低者勝
 - 無符合條件的低牌 → 正常排名
-- 無豹子或同花順 → 正常排名
+- 無同花或更高牌型 → 正常排名
 
 ---
 
@@ -266,7 +266,7 @@ All remaining (non-folded) players reveal their hands. Winner determined by hand
 
 ## 🃏 第八節——攤牌
 
-所有未棄牌的玩家亮出手牌。根據牌型排名決定勝者（適用「小牌打大怪」規則）。
+所有未棄牌的玩家亮出手牌。根據牌型排名決定勝者（適用「小牌打優牌」規則）。
 
 > ### 🔍 全部亮牌規則（邊緣情況）
 >
@@ -276,5 +276,5 @@ All remaining (non-folded) players reveal their hands. Winner determined by hand
 
 **全部亮牌後的裁決：**
 
-- 若任何亮出的手牌為豹子或同花順 → 觸發「小牌打大怪」
+- 若任何亮出的手牌為同花或更高牌型 → 觸發「小牌打優牌」
 - 若無此類手牌 → 正常排名
