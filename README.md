@@ -126,17 +126,6 @@ Other players must either **pay in** or **fold**.
 
 All remaining (non-folded) players reveal their hands. Winner determined by hand rankings, subject to the Low Beats Premiums rule.
 
-> ### 🔍 Full Reveal Rule (Edge Case)
->
-> If any player reaches showdown with a qualifying low hand, **all hands are revealed** — including folded hands.
->
-> However: folded hands are **never** eligible to win the pot.
-
-**Resolution After Full Reveal:**
-
-- Any revealed Flush or better → Low Beats Premiums triggered
-- No such hand → normal rankings apply
-
 ---
 ---
 
@@ -268,13 +257,3 @@ All remaining (non-folded) players reveal their hands. Winner determined by hand
 
 所有未棄牌的玩家亮出手牌。根據牌型排名決定勝者（適用「小牌打優牌」規則）。
 
-> ### 🔍 全部亮牌規則（邊緣情況）
->
-> 若任何進入攤牌的玩家持有符合條件的低牌，**所有手牌均須亮出**——包括已棄牌的手牌。
->
-> 但：已棄的手牌**永遠不能**贏得底池。
-
-**全部亮牌後的裁決：**
-
-- 若任何亮出的手牌為同花或更高牌型 → 觸發「小牌打優牌」
-- 若無此類手牌 → 正常排名
