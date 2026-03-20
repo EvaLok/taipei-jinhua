@@ -40,7 +40,6 @@ Play proceeds **clockwise**. First to act is the player to the left of the deale
 **On your turn:**
 
 - **Fold** — surrender your hand
-- **Call / Continue** — match the current bet
 - **Raise** — increase the bet
 - **Close** — force immediate showdown
 
@@ -82,7 +81,7 @@ Players may look at their cards at any time. **Blind** = not looked. **Seen** = 
 
 | Action | Blind | Seen |
 |--------|:-----:|:----:|
-| Call / Continue | 0.5× current bet | 1× current bet |
+| Raise | 0.5× current bet | 1× current bet |
 | Close | 1× current bet | 2× current bet |
 
 ---
@@ -115,9 +114,9 @@ Betting ends immediately. No further raises.
 
 **🛡 Protected Player:** The player whose action was just closed pays nothing further and is automatically in the showdown.
 
-Other players must either **call** or **fold**.
+Other players must either **pay in** or **fold**.
 
-| Player Type | Cost to Call After Close |
+| Player Type | Cost to Stay In |
 |-------------|:-----------------------:|
 | Blind | 1× current bet |
 | Seen | 2× current bet |
@@ -184,7 +183,6 @@ All remaining (non-folded) players reveal their hands. Winner determined by hand
 **輪到你時：**
 
 - **棄牌（Fold）**——放棄手牌
-- **跟注／繼續（Call / Continue）**——匹配當前下注
 - **加注（Raise）**——提高下注額
 - **關閉（Close）**——強制立即攤牌
 
@@ -226,7 +224,7 @@ All remaining (non-folded) players reveal their hands. Winner determined by hand
 
 | 動作 | 暗牌 | 明牌 |
 |------|:----:|:----:|
-| 跟注／繼續 | 0.5× 當前下注 | 1× 當前下注 |
+| 加注 | 0.5× 當前下注 | 1× 當前下注 |
 | 關閉 | 1× 當前下注 | 2× 當前下注 |
 
 ---
@@ -259,9 +257,9 @@ All remaining (non-folded) players reveal their hands. Winner determined by hand
 
 **🛡 受保護玩家：** 被關閉行動的玩家無需再支付任何費用，自動進入攤牌。
 
-其他玩家必須**跟注**或**棄牌**。
+其他玩家必須**付費留下**或**棄牌**。
 
-| 玩家類型 | 關閉後跟注費用 |
+| 玩家類型 | 留下費用 |
 |----------|:--------------:|
 | 暗牌 | 1× 當前下注 |
 | 明牌 | 2× 當前下注 |
