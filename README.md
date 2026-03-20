@@ -23,8 +23,7 @@ Win chips by **forcing opponents to fold** or **winning at showdown**. Eliminate
 ### 🏆 Tournament Structure
 
 - Each player begins with **10,000 antes**
-- A player is **eliminated** if they would begin a hand with fewer than **2,000 antes**
-- Eliminated players do not participate in further hands
+- A player who begins a hand with fewer than 2,000 antes is immediately eliminated — remaining chips are forfeited
 
 ### 💰 Stack Requirements
 
@@ -166,8 +165,7 @@ All remaining (non-folded) players reveal their hands. Winner determined by hand
 ### 🏆 錦標賽結構
 
 - 每位玩家以 **10,000 底注**開始
-- 若玩家在新手牌開始時少於 **2,000 底注**，則被**淘汰**
-- 被淘汰的玩家不再參與後續手牌
+- 若玩家在新手牌開始時少於 2,000 底注，則立即淘汰——剩餘籌碼沒收
 
 ### 💰 籌碼要求
 
